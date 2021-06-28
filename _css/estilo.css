@@ -37,3 +37,46 @@ figure.foto-legenda figcaption {
 figure.foto-legenda:hover figcaption {
     opacity: 1;
 }
+
+/*formatttação do menu */ 
+
+nav#menu {
+    display: block;
+
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -10px;
+    left: 1200px;
+
+}
+
+nav#menu li {
+    display: inline;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 4px
+    -ms-transition: background-color 1s;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover {
+    background-color: #606060;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: #000000;
+    text-decoration-line: none;
+}
+
+nav#menu a:hover {
+    color: white;
+    text-decoration: underline;
+}

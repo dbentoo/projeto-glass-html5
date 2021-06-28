@@ -1,9 +1,15 @@
 @charset "UTF-8";
 
 body {
-    background-color: white;
+    background-color: #dddddd;
     color: (0,0,0,1);
 }
+
+div#interface {
+    width: 400px;
+    background-color: #ffffff;
+}
+
 p {
     text-align: justify;
     text-indent: 50px;

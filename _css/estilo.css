@@ -128,17 +128,20 @@ nav#menu a:hover {
 
 section#corpo {
     display: block;
-    width: 600px;
+    width: 1000px;
     float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
 }
 
 aside#lateral {
     display: block;
-    width: 400px;
+    width: 720px;
     float: right;
 }
 
 footer#rodape {
-    display: block;
-
+    clear: both;
+    border-top: 1px solid #606060;
+    
 }
